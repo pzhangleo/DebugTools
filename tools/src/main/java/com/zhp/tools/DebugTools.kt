@@ -15,14 +15,14 @@ fun init(app: Application) {
  * https://github.com/whataa/pandora
  */
 fun initPandora(app: Application) {
-    Pandora.init(app)
+//    Pandora.init(app)
 }
 
 /**
  * https://github.com/whataa/pandora
  */
 fun initPandoraEnableShake(app: Application) {
-    Pandora.init(app).enableShakeOpen()
+    Pandora.get().disableShakeSwitch()
 }
 
 /**
